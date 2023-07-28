@@ -1,0 +1,161 @@
+body{
+ background-color: rgb(32,33,36);
+}
+
+.header{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    position: absolute;
+   bottom:0% ;
+    height: 115%;
+}
+
+.input1 input{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(32,33,36);
+    position: absolute;
+    left: 36%;
+    bottom: 45%;
+    height: 4.8%;
+    border: 0.01rem solid rgb(175, 175, 175);
+    border-radius: 4rem;
+    width: 28%;
+}
+
+.input1 input:hover{
+    background: rgb(74, 74, 74);
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.input1 input:active{
+    background: rgb(74, 74, 74);
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.input2 input{
+    font-size: small;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top:  57%;
+    left:43.5%;
+    justify-content: center;
+    height: 4.8%;
+    border: none;
+    border-radius: 4rem;
+    width: 6.5%;
+    gap: 2rem;
+}
+.input3 input{
+    font-size: small;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top:  57%;
+    left:50.5%;
+    justify-content: center;
+    height: 4.8%;
+    border: none;
+    border-radius: 4rem;
+    width: 7%;
+}
+
+.input2 input:hover{
+    background-color: rgb(53, 53, 53);
+    border: 0.03rem solid rgb(138, 138, 138);
+}
+
+.input3 input:hover{
+    background-color: rgb(53, 53, 53);
+    border: 0.03rem solid rgb(138, 138, 138);
+}
+
+.icon{
+    position: absolute;
+    top: 51%;
+    left: 62%;
+    z-index: 3;
+    color:rgb(138, 138, 138) ;
+    font-size: 1.9rem;
+}
+
+.text{
+    font-size: 1rem;
+    color: rgb(211, 113, 113);
+    margin: 2% 0 0 2%;
+}
+
+.hr{
+    border: 1px solid rgb(64, 64, 64);
+}
+
+.advanced_h2{
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    margin: 3% 0 0 2%;
+}
+
+.form_text h3{
+    color: rgb(171, 171, 171);
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.all{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form_box input{
+    background-color: rgb(32,33,36);
+    border: 0.1rem solid rgb(80, 80, 80);
+    width: 29rem;
+    height: 1.7rem;
+    color: white;
+    cursor: text;
+}
+
+.form_text{
+    width: 12%;
+
+}
+
+.adv_search input{
+    background-color:rgb(138,180,248) ;
+    padding: 0.5rem;
+    position: absolute;
+    top: 51%;
+    left: 32.5%;
+
+}
+
+.adv_search input:hover{
+    background-color: rgb(158, 192, 246);
+}
